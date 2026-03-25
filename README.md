@@ -1,42 +1,22 @@
 # Nishant Talsaniya — Unity Game Developer 🎮
 
-Hi, I’m Nishant! I have 2+ years of hands-on experience in Unity game development (2D, 3D, WebGL, and VR games).
+Hi, I’m Nishant! I am a Unity Game Developer with 4 years of hands-on experience in building 2D, 3D, WebGL, and VR games.
 
 ## 🧩 Skills
-- Unity (2D/3D/VR)
-- C#
-- Gameplay Scripting
-- Level Design
-- Ad Integration (AdMob, IronSource)
-- In-App Purchases (IAP)
-- WebGL Development
-- App Publishing
+- **Engines:** Unity (2D/3D/VR), Construct 3, Godot
+- **Languages:** C#
+- **Systems:** Gameplay Scripting, Level Design
+- **Monetization:** AdMob, IronSource, In-App Purchases (IAP)
+- **Specialties:** WebGL Development, MetaMask Integration, App Publishing
 
-## 🚀 Projects
-- **Pet Care Hospital (3D)** — Animal treatment simulation game with AI nurse system  
-  👉 https://play.google.com/store/apps/details?id=com.intechualsolutions.petcarehospital  
-
-- **Tower Defence (3D)** — Strategy-based tower defense game  
-  👉 https://play.google.com/store/apps/details?id=com.webmotion.towerdefence3d  
-
-- **Alpha Quest** — Puzzle word game with hints & power-ups  
-  👉 https://play.google.com/store/apps/details?id=com.webmotion.alphaquest  
-
-- **Rainbow Puzzle** — Casual puzzle game  
-  👉 https://play.google.com/store/apps/details?id=com.webmotion.rainbowpuzzle  
-
-- **Ruby's Escape** — Adventure escape game  
-  👉 https://play.google.com/store/apps/details?id=com.webmotion.rubysescape  
-
-- **Baby Toddlers Game** — Kids learning & fun game  
-  👉 https://play.google.com/store/apps/details?id=com.babylearning.toddlerinfant  
-
-- **Match 3 Decorating** — Match-3 + home decoration game  
-  👉 https://play.google.com/store/apps/details?id=com.kridabytes.match3.decorating.home.decor  
-
-- **Hamp Land (WebGL)** — Farming RPG with MetaMask login & character customization  
-
-- **Sling Tomb** — Physics-based sling gameplay with hooks and obstacles  
+## 🚀 Featured Projects
+- **Pet Care Hospital (3D)** — Animal treatment simulation game.
+- **Tower Defence (3D)** — Strategy-based tower defense.
+- **Alpha Quest** — Puzzle word game with hints.
+- **Ruby's Escape** — Adventure escape game.
+- **Sling Tomb** — Physics-based sling gameplay.
+- **Hamp Land (WebGL)** — Farming RPG with Web3 login.
 
 ## 📫 Contact
-- Email: nishanttech303@gmail.com
+- **Email:** nishanttech303@gmail.com
+- **Portfolio:** [Link to your hosted site]
