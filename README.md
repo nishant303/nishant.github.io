@@ -120,7 +120,7 @@ Dedicated Unity Game Developer with 2+ years of hands-on experience in building 
 ---
 
 ## 🌟 Highlights
-- 2+ years of Unity development experience  
+- 4 years of Unity development experience  
 - Worked on Mobile, WebGL, and VR platforms  
 - Strong experience in monetization systems (Ads + IAP)  
 - Experience with Blockchain (MetaMask integration)  
