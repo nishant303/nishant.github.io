@@ -1,133 +1,167 @@
 # 🎮 Nishant Talsaniya - Unity Game Developer
 
 ## 📞 Contact
-- Phone: +91 8200011210  
-- Email: nishanttech303@gmail.com  
-- Location: Ahmedabad, India  
+- 📱 Phone: +91 8200011210  
+- 📧 Email: nishanttech303@gmail.com  
+- 📍 Location: Ahmedabad, India  
 
 ---
 
 ## 🧑‍💻 Summary
-Dedicated Unity Game Developer with 2+ years of hands-on experience in building immersive 2D, 3D, and VR games. Skilled in gameplay mechanics, system integration, and performance optimization across multiple platforms. Passionate about learning new technologies and delivering innovative gaming experiences.
+Passionate Unity Game Developer with 2+ years of experience building engaging 2D, 3D, and VR games. Skilled in gameplay systems, monetization, and performance optimization across mobile and WebGL platforms. Always learning and implementing new technologies to create better player experiences.
 
 ---
 
 ## 🛠️ Skills
-- Unity (2D, 3D, VR)
-- C#
-- Gameplay Scripting
-- Level Design
-- Ads Integration (AdMob, IronSource)
-- In-App Purchases (IAP)
-- Reskinning
-- App Publishing
+- 🎮 Unity (2D, 3D, VR)
+- 💻 C#
+- 🧠 Gameplay Programming
+- 🗺️ Level Design
+- 💰 Ads Integration (AdMob, IronSource)
+- 🛒 In-App Purchases (IAP)
+- 🔄 Reskinning
+- 🚀 App Publishing
 
 ---
 
 ## 💼 Experience
 
-### Unity Game Developer  
+### 🏢 Unity Game Developer  
 **Web Motion Tech, Ahmedabad**  
 📅 Dec 2024 – Present  
 
-### Unity Game Developer  
+### 🏢 Unity Game Developer  
 **Intechual Solution, Ahmedabad**  
 📅 Feb 2022 – Dec 2024  
 
-#### 🔹 Projects Worked On:
+---
+
+## 🧩 Professional Projects
 
 ### 🌾 Hamp Land (3D)
-- Farming RPG game (WebGL)
+- Farming RPG (WebGL)
 - Database save system
 - MetaMask wallet login
-- Character customization system
+- Character customization
+
+---
 
 ### 🐦 Angry Bob (2D)
-- Angry Birds-style game
-- Multiple level design
+- Angry Birds-style gameplay
+- Multiple levels
 - Reskinning
 - AdMob + IAP integration
 
+---
+
 ### 🧼 LiMono Cleaning (2D)
 - Kids cleaning game
-- Animation & drawing features
+- Animations + drawing system
 - Ad integration (IronSource, AdMob)
-- Data saving system
+- Save progress system
+
+---
 
 ### 🏥 Pet Care Hospital (3D)
 - Animal treatment simulation
 - AI Nurse system
-- Reward ads & upgrade system  
-🔗 https://play.google.com/store/apps/details?id=com.intechualsolutions.petcarehospital
+- Reward ads & upgrades  
 
-### 🎥 Billionaire Show (VR)
-- KBC-style VR quiz game
-- Lifelines system
-- Optimized for VR performance
-- Rich environment with sound & lighting
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.intechualsolutions.petcarehospital)
 
 ---
 
-## 🚀 Personal & Professional Projects
+### 🎥 Billionaire Show (VR)
+- KBC-style VR game
+- Lifeline system
+- Optimized VR performance
+- Rich environment (audio + lighting)
+
+---
+
+## 🚀 Featured Projects
 
 ### 🧩 Superbug Blitz
-- Match-3 game with character abilities
-- Achievement & unlock system
+- Match-3 game
+- Character abilities & achievements
+
+---
 
 ### 🏰 Tower Defence (3D)
-- Strategic defense game
-- Enemy types & tower placement  
-🔗 https://play.google.com/store/apps/details?id=com.webmotion.towerdefence3d
+- Strategy-based gameplay
+- Enemy waves & tower placement  
+
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.webmotion.towerdefence3d)
+
+---
 
 ### 🪝 Sling Tomb
-- Physics-based sling mechanic
-- Hook navigation gameplay
-- Increasing difficulty & obstacles
+- Physics-based sling mechanics
+- Hook navigation system
+- Increasing difficulty
+
+---
 
 ### 🔤 Alpha Quest
-- Puzzle word game
-- Hints & superpowers  
-🔗 https://play.google.com/store/apps/details?id=com.webmotion.alphaquest
+- Word puzzle game
+- Hint system & power-ups  
+
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.webmotion.alphaquest)
+
+---
 
 ### 🐎 NFT Horse Racing (3D)
-- AI-based NPC racing system
+- AI-based NPC racing
 - MetaMask wallet integration
 
+---
+
+## 📱 Published Games
+
 ### 🌈 Rainbow Puzzle  
-🔗 https://play.google.com/store/apps/details?id=com.webmotion.rainbowpuzzle  
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.webmotion.rainbowpuzzle)
+
+---
 
 ### 🏃 Ruby's Escape  
-🔗 https://play.google.com/store/apps/details?id=com.webmotion.rubysescape  
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.webmotion.rubysescape)
+
+---
 
 ### 👶 Baby Toddlers Game  
-🔗 https://play.google.com/store/apps/details?id=com.babylearning.toddlerinfant  
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.babylearning.toddlerinfant)
+
+---
 
 ### 🏡 Match 3 Decorating  
-🔗 https://play.google.com/store/apps/details?id=com.kridabytes.match3.decorating.home.decor  
+👉 [📥 Download on Play Store](https://play.google.com/store/apps/details?id=com.kridabytes.match3.decorating.home.decor)
 
 ---
 
 ## 🎓 Education
 
 ### 🎓 Master of Computer Application  
-**Charotar University of Science and Technology**  
+Charotar University of Science and Technology  
 📅 2014 – 2017  
 
 ### 🎓 Bachelor of Computer Application  
-**Saurashtra University**  
+Saurashtra University  
 📅 2011 – 2014  
 
 ---
 
 ## 🌟 Highlights
-- 4 years of Unity development experience  
-- Worked on Mobile, WebGL, and VR platforms  
-- Strong experience in monetization systems (Ads + IAP)  
-- Experience with Blockchain (MetaMask integration)  
+- ✅ 4 years Unity experience  
+- 📱 Mobile, WebGL & VR development  
+- 💰 Monetization (Ads + IAP)  
+- 🔗 Blockchain integration (MetaMask)  
 
 ---
 
-## 📌 Goal
-To build high-quality, engaging, and scalable games while continuously improving technical and creative skills.
+## 🎯 Goal
+To build high-quality, scalable, and engaging games while continuously improving technical and creative skills.
 
 ---
+
+## ⭐ Let's Connect
+If you like my work, feel free to connect or collaborate 🚀
