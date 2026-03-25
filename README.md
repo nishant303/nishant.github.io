@@ -8,7 +8,7 @@
 ---
 
 ## 🧑‍💻 Summary
-Passionate Unity Game Developer with 2+ years of experience building engaging 2D, 3D, and VR games. Skilled in gameplay systems, monetization, and performance optimization across mobile and WebGL platforms. Always learning and implementing new technologies to create better player experiences.
+Passionate Unity Game Developer with 4 years of experience building engaging 2D, 3D, and VR games. Skilled in gameplay systems, monetization, and performance optimization across mobile and WebGL platforms. Always learning and implementing new technologies to create better player experiences.
 
 ---
 
