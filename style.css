@@ -1,412 +1,184 @@
-/* ---------------------- */
-/* Global Styles          */
-/* ---------------------- */
-body {
+/* Variables */
+:root {
+    --primary: #0077ff;
+    --secondary: #00bcd4;
+    --dark: #1e293b;
+    --light: #f8fafc;
+    --white: #ffffff;
+    --text: #334155;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Reset & Base */
+* {
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    background: #ffffff;
-    color: #1a1a1a;
-    line-height: 1.7;
-    overflow-x: hidden;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-    color: #0077ff;
-    text-decoration: none;
-    transition: 0.3s;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f5f9;
+    color: var(--text);
+    line-height: 1.6;
 }
 
-    a:hover {
-        color: #0059c9;
-    }
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-/* ---------------------- */
-/* Header                 */
-/* ---------------------- */
+/* Header */
 header {
-    background: linear-gradient(135deg, #0077ff, #00bcd4);
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
     color: white;
     text-align: center;
-    padding: 100px 20px 80px 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    padding: 100px 20px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 0 10px 40px rgba(0, 119, 255, 0.2);
 }
 
-    header h1 {
-        font-size: 3rem;
-        margin-bottom: 15px;
-        font-weight: 700;
-        letter-spacing: 1px;
-    }
+header h1 { font-size: 3rem; margin-bottom: 10px; }
+header p { font-size: 1.2rem; opacity: 0.9; font-weight: 300; }
 
-    header p {
-        font-size: 1.2rem;
-        opacity: 0.9;
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-/* ---------------------- */
-/* Section Titles         */
-/* ---------------------- */
+/* Section Headers */
 h2 {
     text-align: center;
     font-size: 2.2rem;
-    margin-bottom: 30px;
-    color: #0a58ca;
+    color: var(--primary);
+    margin-bottom: 40px;
     position: relative;
 }
 
-    h2::after {
-        content: "";
-        display: block;
-        width: 80px;
-        height: 3px;
-        background: #0077ff;
-        margin: 10px auto 0 auto;
-        border-radius: 2px;
-    }
-
-/* ---------------------- */
-/* About Section          */
-/* ---------------------- */
-#about {
-    background: #ffffff;
-    border-radius: 20px;
-    padding: 50px 40px;
-    width: 80%;
-    margin: 50px auto;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    transition: transform 0.3s ease;
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--secondary);
+    margin: 10px auto;
+    border-radius: 10px;
 }
 
-    #about:hover {
-        transform: translateY(-5px);
-    }
+/* About Section */
+#about {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: -50px; /* Overlap effect */
+    box-shadow: var(--shadow);
+    text-align: center;
+}
 
-    #about p {
-        margin-bottom: 15px;
-        font-size: 1.05rem;
-        color: #333;
-    }
+.about-content p { margin-bottom: 20px; font-size: 1.1rem; }
+.goals { background: #f0f9ff; padding: 20px; border-radius: 10px; display: inline-block; }
 
-/* ---------------------- */
-/* Skills Section         */
-/* ---------------------- */
-.skills {
-    list-style: none;
-    padding: 0;
+/* Skills Section */
+.skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     justify-content: center;
+    list-style: none;
+    padding: 0;
 }
 
-    .skills li {
-        background: linear-gradient(135deg, #0077ff, #00bcd4);
-        color: white;
-        padding: 10px 18px;
-        border-radius: 25px;
-        font-weight: 500;
-        box-shadow: 0 5px 15px rgba(0, 119, 255, 0.3);
-        transition: 0.3s;
-    }
+.skills-list li {
+    background: var(--white);
+    color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+    transition: 0.3s;
+}
 
-        .skills li:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(0, 119, 255, 0.5);
-        }
+.skills-list li:hover {
+    transform: translateY(-3px);
+    background: var(--primary);
+    color: white;
+}
 
-/* ---------------------- */
-/* Projects Grid          */
-/* ---------------------- */
+/* Projects Grid */
 .projects-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 40px;
-    margin: 50px auto;
-    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
 }
 
-/* ---------------------- */
-/* Fixed Width Project Box */
-/* ---------------------- */
-.project-landscape,
-.project-portrait {
-    height: 600px;
-    width: 450px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-/* ---------------------- */
-/* Landscape Projects Layout */
-/* ---------------------- */
-.project-landscape {
-    background: #ffffff;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    transition: transform 0.4s ease;
+.project-card {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    cursor: pointer;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+    border: 1px solid #f1f5f9;
 }
 
-    .project-landscape:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-    }
-
-    .project-landscape .project-thumbnail {
-        width: 100%;
-        height: 200px;
-        object-fit: contain;
-        object-position: center;
-        background-color: #f4f6f8;
-        border-radius: 10px;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .project-landscape .project-content {
-        padding: 10px 15px;
-    }
-
-        .project-landscape .project-content h3 {
-            color: #0077ff;
-            margin-bottom: 10px;
-            font-size: 1.3rem;
-        }
-
-        .project-landscape .project-content p {
-            color: #555;
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-        }
-
-    .project-landscape .project-buttons {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
-/* ---------------------- */
-/* Portrait Project Layout */
-/* ---------------------- */
-.project-portrait {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 900px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 
-    .project-portrait:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    }
+.project-info h3 { color: var(--dark); margin-bottom: 15px; }
+.project-info p { font-size: 0.95rem; color: #64748b; margin-bottom: 25px; }
 
-    /* Thumbnail image */
-    .project-portrait img {
-        width: 240px;
-        height: auto;
-        border-radius: 12px;
-        object-fit: contain;
-        background: #f9f9f9;
-        padding: 10px;
-        margin-right: 24px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    }
-
-    /* Text Content */
-    .project-portrait .project-content {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-        .project-portrait .project-content h3 {
-            font-size: 1.4rem;
-            color: #222;
-            margin-bottom: 8px;
-        }
-
-        .project-portrait .project-content p {
-            color: #555;
-            line-height: 1.5;
-            font-size: 0.95rem;
-            margin-bottom: 12px;
-        }
-
-    /* Store Buttons */
-    .project-portrait .project-buttons {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
-/* ---------------------- */
-/* Store Button Style     */
-/* ---------------------- */
+/* Buttons & Badges */
 .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px; /* space between icon and text */
-    padding: 10px 18px; /* slightly wider padding */
-    border-radius: 10px; /* softer corners */
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    font-size: 0.95rem; /* slightly bigger text */
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-    /* Icon inside button */
-    .btn img {
-        width: 30px; 
-        height: 30px;
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-/* Play Store */
-.btn-playstore {
-    background: linear-gradient(135deg, #34a853, #2e7d32);
-}
-
-    .btn-playstore:hover {
-        transform: scale(1.08);
-        box-shadow: 0 6px 18px rgba(52, 168, 83, 0.45);
-    }
-
-/* App Store */
-.btn-appstore {
-    background: linear-gradient(135deg, #0a84ff, #0051d4);
-}
-
-    .btn-appstore:hover {
-        transform: scale(1.08);
-        box-shadow: 0 6px 18px rgba(10, 132, 255, 0.45);
-    }
-
-/* Download Build Button */
-.btn-download {
-    background: linear-gradient(135deg, #f9a825, #f57f17);
-    /*color: #fff;
-    font-weight: 600;
-    padding: 10px 18px;
-    border-radius: 12px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(249, 168, 37, 0.3);*/
-}
-
-    .btn-download:hover {
-        transform: scale(1.08);
-        box-shadow: 0 6px 18px rgba(249, 168, 37, 0.5);
-    }
-
-/* Telegram Button */
-.btn-telegram {
-    background: linear-gradient(135deg, #0088cc, #005f99);
-    color: white;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 18px;
-    border-radius: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 136, 204, 0.3);
-}
-
-    /*.btn-telegram img {
-        width: 20px;
-        height: 20px;
-    }*/
-
-    .btn-telegram:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 20px rgba(0, 136, 204, 0.5);
-    }
-
-/* ---------------------- */
-/* Contact Section        */
-/* ---------------------- */
-#contact {
-    background: #ffffff;
-    border-radius: 20px;
-    padding: 50px;
-    margin: 60px auto;
-    width: 80%;
+    display: block;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-    #contact p {
-        font-size: 1rem;
-        color: #333;
-        margin: 8px 0;
-    }
+.btn-play { background: var(--primary); color: white; }
+.btn-play:hover { background: #0059c9; }
 
-/* ---------------------- */
-/* Footer                 */
-/* ---------------------- */
+.badge {
+    background: #e2e8f0;
+    color: #475569;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    align-self: flex-start;
+}
+
+/* Contact */
+.contact-card {
+    background: var(--dark);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.email-link {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 25px;
-    background: #0077ff;
-    color: white;
-    font-size: 0.95rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    letter-spacing: 0.5px;
+    padding: 40px 0;
+    color: #94a3b8;
+    font-size: 0.9rem;
 }
 
-/* ---------------------- */
-/* Responsive             */
-/* ---------------------- */
+/* Responsive */
 @media (max-width: 768px) {
-    .project-landscape .project-thumbnail {
-        height: 180px;
-    }
-
-    .project-portrait {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-        .project-portrait .project-thumbnail {
-            width: 100%;
-            height: 220px;
-        }
-
-        .project-portrait .project-content {
-            padding: 15px;
-        }
-
-    #about,
-    #contact {
-        width: 90%;
-        padding: 35px 20px;
-    }
+    header h1 { font-size: 2.2rem; }
+    .project-card { padding: 20px; }
 }
